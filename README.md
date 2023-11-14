@@ -5,9 +5,9 @@ TatsuyaAPI is an API for developing spigot plugins that facilitates and gives yo
 
 ## Creating shapes
 
-### Custom dimensions Triangle
+Triangle
 ```java
-Triangle triangle = PolygonBuilder
- .shape(PolygonShape.TRIANGLE)
- .base(3).height(2).build();
+Triangle triangle = PolygonBuilder.getOf(PolygonShape.TRIANGLE)
+ .leftSide(3).rightSide(3) // isosceles
+ .height(5).build();
 ```
