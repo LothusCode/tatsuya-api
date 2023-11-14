@@ -5,6 +5,12 @@ TatsuyaAPI is an API for developing spigot plugins that facilitates and gives yo
 
 ## Creating shapes
 
+Square
+```java
+Square square = PolygonBuilder.getOf(PolygonShape.SQUARE)
+ .side(4).build()
+```
+
 Triangle
 ```java
 Triangle triangle = PolygonBuilder.getOf(PolygonShape.TRIANGLE)
